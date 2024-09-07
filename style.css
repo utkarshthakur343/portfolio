@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(21, 19, 52);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(10, 10, 42);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(150, 150, 203);
+    font-size: 1.02rem;
+}
+
+
+.left {
+    font-size: 1.6rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 190px;
+}
+
+.first>div {
+    width: 90%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+
+
+}
+
+.rightsection img {
+    width: 40%;
+}
+
+.purple {
+    color: rgba(184, 7, 237, 0.66);
+}
+
+#element {
+    color: rgba(184, 7, 237, 0.66);
+}
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgba(184, 7, 237, 0.66);
+    height: 2px;
+    margin: 40px 80px;
+}
+
+.second h1 {
+    font-size: 1.8rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.second .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 58px 0;
+    display: flex;
+}
+
+.second .vertical {
+    height: 98px;
+    width: 1px;
+    background-color: white;
+    margin: 0 142px;
+    color: rgb(215, 168, 229);
+
+}
+
+.img {
+    width: 33px;
+    position: relative;
+    top: -29px;
+    left: -15px;
+}
+
+.vertical-title {
+    position: relative;
+    width: 150px;
+    top: 70px;
+    font-size: 25px;
+}
+
+/* .vertical-desc {
+    position: relative;
+    top: 80px;
+    width: 150px;
+    font-size: 12px;
+    color: rgba(184, 7, 237, 0.66);
+    
+} */
+
+footer {
+    background-color: rgba(135, 4, 135, 0.242);
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: rgb(150, 150, 203);
+    font-size: 1.02rem;
+}
+
+.footer>div {
+    width: 224px;
+}
+
+.text-center {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.btn {
+    padding: 8px;
+    background-color: rgba(125, 12, 125, 0.596);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.buttons {
+    padding: 50px;
+    margin: -17px;
+}
+
+/* Contact form styling */
+.contactform h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.contactform {
+    padding: 0 135px;
+    padding-top: 50px;
+}
+
+.contactform form div {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp {
+    font-size: 0.7rem;
+    color: bisque;
+    margin: 0 13px;
+}
+
+.contactform div input {
+    width: 25vw;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check-input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+/* projects */
+.projects {
+    margin: 20px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(97, 146, 191);
+    font-family: "Poppins", sans-serif;
+}
+
+.info {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.info h2 {
+    padding: 7px;
+    margin: 3px;
+    color: rgb(112, 163, 200);
+}
+
+.info h3 {
+    color: gray;
+}
+
+.info ul {
+    padding: 5px;
+}
+
+/* above */
+.obj h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(101, 59, 141);
+}
+
+.obj ul {
+    justify-content: center;
+    text-align: center;
+}
+
+.education h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(101, 59, 141);
+}
+
+.education h3 {
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 217, 217);
+}
+
+.education ul {
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.certifications h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(101, 59, 141);
+}
+
+.certifications ul {
+    justify-content: center;
+    text-align: center;
+}
+
+/* about */
+.ser h1 {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: rgb(101, 59, 141);
+}
+
+.ser h3 {
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 217, 217);
+}
+
+.ser ul {
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* intro */
+
+.intro {
+    background-color: aqua;
+    border-radius: 9px;
+    border: 5px solid black;
+    width: 70vw;
+    height: 40vh;
+    padding: 70px;
+    margin: 140px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro h1 {
+    padding: 10px;
+    margin: 15px;
+}
+
+@media (max-width:788px) {
+
+
+    nav {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 210px;
+        background-color: rgb(10, 10, 42);
+        width: 110vw;
+    }
+
+    .left {
+        justify-content: center;
+        margin: 0 94px;
+        position: sticky;
+    }
+
+    nav ul li {
+        margin: 5px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .footer-first h3 {
+        margin-right: 60px;
+    }
+
+    .second.box {
+        display: inline-block;
+    }
+
+    .rightsection img {
+        width: 20%;
+        position: absolute;
+
+    }
+
+    .rightsection {
+        width: 30%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .second .box {
+        background-color: white;
+        width: 280px;
+        height: 2px;
+        margin: 18px 0;
+        display: grid;
+
+
+    }
+
+    .second h1 {
+        margin: 0 50px;
+
+    }
+
+    .second .vertical {
+        height: 110px;
+        width: 1px;
+        margin: 40px 10px;
+        padding-top: 15px;
+        position: relative;
+
+    }
+
+    .vertical-title {
+        position: relative;
+        font-size: 15px;
+        text-align: -webkit-center;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 150px 30px;
+    }
+
+    main hr {
+        border: 0;
+        background-color: rgba(184, 7, 237, 0.66);
+        height: 2px;
+        margin: 10px 0;
+        width: 100vw;
+
+    }
+
+    footer {
+        height: 35vh;
+        margin-top: 360px;
+        width: 110vw;
+
+    }
+
+    .footer ul li a {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .footer-first h3 {
+        margin: 20px;
+        margin-right: 25px;
+
+    }
+
+    .img {
+        width: 29px;
+        position: relative;
+        top: -35px;
+        left: -15px;
+    }
+
+    .first {
+        margin: 3px;
+        padding: 2px;
+    }
+
+    .rightsection {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contactform {
+        padding: 0 15px;
+        padding-top: 10px;
+    }
+
+    .contactform div input {
+        width: 25vw;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 15px 0;
+        padding: 5px 89px;
+    }
+}
